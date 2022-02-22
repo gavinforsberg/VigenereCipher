@@ -1,0 +1,60 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c515c31c09dd9b9d4c70b98a0c17e0896ac89fe11abacaed21d79cb931d294f1"
+    }
+  ],
+  "containerPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/VigenereDecipher.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData/VigenereDecipher/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData/VigenereDecipher/Index/Build/Products",
+      "derivedDataPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData/VigenereDecipher/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData/VigenereDecipher/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData/VigenereDecipher/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/DerivedData/VigenereDecipher/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

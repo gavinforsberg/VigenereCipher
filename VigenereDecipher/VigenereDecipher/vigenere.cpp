@@ -11,30 +11,29 @@
 #include <random>
 using namespace std;
 
-vigenere cipher;
+//vigenere cipher;
 
 string vigenere::fileRead(string textFile)
 { // Adapted from https://www.tutorialspoint.com/read-data-from-a-text-file-using-cplusplus
     
-    ifstream cipher;
-    
-    cipher.open(textFile,ios::in);
+    ifstream cipherfile(textFile);
        
     string fileString = "";
+    cout << textFile << endl;
     
-    if(cipher.is_open())
+    if(cipherfile)
     {
-        cout << "inside 'is open' if statement\n\n ";
-        while(getline(cipher, fileString))
+        cout << "inside 'is open' if statement\n\n";
+        while(getline(cipherfile, fileString))
         {  //read data into string
             cout << "inside while loop\n\n";
             cout << fileString << "\n\n";
         }
-        cout << "finished if 'is open', closing file\n";
-        cipher.close();
+        cout << "finished if 'is open', closing file\n\n";
+        cipherfile.close();
     }
     else
-        cout << "\n\nerror\n\n";
+        cout << "\nerror\n\n";
     
     return(fileString);
 }

@@ -32,10 +32,15 @@ int main()
      
      if(in == 1)
      {
-          cout << "Please enter the name of the file containing your plaintext." << endl;
-          cin >> fileName;
-          plaintext = cipher.fileRead(fileName);
-          cipher.encrypt(plaintext);
+//          cout << "Please enter the name of the file containing your plaintext." << endl;
+//          cin >> fileName;
+//          plaintext = cipher.fileRead(fileName);
+//          cipher.encrypt(plaintext);
+          
+          // /Users/Gavin/GitHub/VigenereCipher/VigenereDecipher/sample_cipher.txt
+                    cipher.fileRead("sample_cipher.txt");
+                    cipher.encrypt(plaintext);
+          
      }
      else if(in == 2)
      {
